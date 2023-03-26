@@ -1,15 +1,14 @@
 ## Portfolio
 
 ---
+[About]
 
-### Information
-
-[Click Here To View My CV ](/pdf/CV.pdf)
-<img src="images/tech.jpeg?raw=true"/>
+<p>I’m a computer science undergraduate with a passion for data science and business analytics.
+  I'm looking for more opportunities to improve myself and develop professionally.</p>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Click Here To View My CV ](/pdf/CV.pdf)
+<img src="images/tech.jpeg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
