@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [View My CV From Here](/pdf/CV.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/tech.jpeg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
