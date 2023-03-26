@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Information
 
-[View My CV From Here](/pdf/CV.pdf)
+[Click Here To View My CV ](/pdf/CV.pdf)
 <img src="images/tech.jpeg?raw=true"/>
 
 ---
