@@ -1,7 +1,6 @@
 ## Portfolio
 
 ---
-<br><br>
 <p>I’m a computer science undergraduate with a passion for data science and business analytics.
   I'm looking for more opportunities to improve myself and develop professionally.</p>
 
