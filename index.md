@@ -13,8 +13,8 @@
 <img src="images/pypy.webp?raw=true"/>
 
 ---
-[Click Here To View Java Year One Project](/pdf/w1867585.zip)
-<img src="images/pypy.webp?raw=true"/>
+[Click Here To View Java Year One Project](/pdf/java_cabin.zip)
+<img src="images/java.png?raw=true"/>
 
 ---
 
