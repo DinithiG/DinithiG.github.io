@@ -6,7 +6,7 @@
 
 ---
 [Click Here To View My CV ](/pdf/CV.pdf)
-<img src="images/tech.jpeg?raw=true"/>
+<img src="images/cv_pic.jpeg?raw=true"/>
 
 ---
 [Click Here To View Python Year One Project](/pdf/w1867585.zip)
