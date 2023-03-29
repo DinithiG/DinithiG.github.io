@@ -9,7 +9,7 @@
 <img src="images/tech.jpeg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Python Year One Project](/pdf/w1867585.zip)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
