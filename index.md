@@ -10,7 +10,7 @@
 
 ---
 [Python Year One Project](/pdf/w1867585.zip)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/pypy.webp?raw=true"/>
 
 ---
 
