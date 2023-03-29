@@ -9,7 +9,7 @@
 <img src="images/tech.jpeg?raw=true"/>
 
 ---
-[Python Year One Project](/pdf/w1867585.zip)
+[Click Here To View Python Year One Project](/pdf/w1867585.zip)
 <img src="images/pypy.webp?raw=true"/>
 
 ---
