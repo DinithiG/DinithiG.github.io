@@ -9,9 +9,51 @@ title: Dinithi Gunawardena - Software Engineer & Data Science Enthusiast
 
 ---
 
-### About Me
+I'm a passionate Computer Science undergraduate with a strong foundation in software engineering, data science, and business analytics. I'm dedicated to creating efficient, scalable solutions and continuously expanding my technical expertise.
 
-I'm a passionate Computer Science undergraduate with a strong foundation in software engineering, data science, and business analytics. I'm dedicated to creating efficient, scalable solutions and continuously expanding my technical expertise. Currently seeking opportunities to apply my skills in a professional software engineering role.
+<div class="home-sections">
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-user"></i></div>
+    <h2>About Me</h2>
+    <p>Learn more about my background, education, and professional journey.</p>
+    <a href="/about/" class="section-btn">View About</a>
+  </div>
+  
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-code"></i></div>
+    <h2>Skills</h2>
+    <p>Explore my technical skills in programming, frameworks, and tools.</p>
+    <a href="/skills/" class="section-btn">View Skills</a>
+  </div>
+  
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-project-diagram"></i></div>
+    <h2>Projects</h2>
+    <p>Check out my portfolio of projects in AI, web development, and more.</p>
+    <a href="/projects/" class="section-btn">View Projects</a>
+  </div>
+  
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-file-pdf"></i></div>
+    <h2>Resume</h2>
+    <p>View my professional experience, education, and achievements.</p>
+    <a href="/resume/" class="section-btn">View Resume</a>
+  </div>
+  
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-blog"></i></div>
+    <h2>Blog</h2>
+    <p>Read my latest articles on technology, AI, and development.</p>
+    <a href="/blog/" class="section-btn">View Blog</a>
+  </div>
+  
+  <div class="home-section">
+    <div class="section-icon"><i class="fas fa-envelope"></i></div>
+    <h2>Contact</h2>
+    <p>Get in touch with me for collaborations or opportunities.</p>
+    <a href="/contact/" class="section-btn">Contact Me</a>
+  </div>
+</div>
 
 ---
 
@@ -85,29 +127,19 @@ I'm a passionate Computer Science undergraduate with a strong foundation in soft
 
 ---
 
-<a name="contact"></a>
-### Contact Me
+### Get In Touch
 
-<div class="contact-section">
+<div class="contact-preview">
+  <p>Feel free to reach out to me for job opportunities, collaborations, or just to say hello. I'm always open to discussing new projects and ideas.</p>
+  
   <div class="contact-item">
     <i class="fas fa-envelope"></i> <a href="mailto:dinithi.20210465@iit.ac.lk">dinithi.20210465@iit.ac.lk</a>
   </div>
   
-  <div class="contact-item">
-    <i class="fas fa-phone"></i> <a href="tel:+94713249027">+94 71 324 9027</a>
+  <div style="margin-top: 20px; text-align: center;">
+    <a href="/contact/" class="btn"><i class="fas fa-envelope"></i> Contact Me</a>
+    <a href="/CV_ DinithiGunawardena.pdf" class="btn" target="_blank"><i class="fas fa-file-alt"></i> Download My CV</a>
   </div>
-  
-  <div class="contact-item">
-    <i class="fab fa-linkedin"></i> <a href="https://lk.linkedin.com/in/dinithi-gunawardena-7719a9164" target="_blank">Dinithi Gunawardena</a>
-  </div>
-  
-  <div class="contact-item">
-    <i class="fab fa-github"></i> <a href="https://github.com/DinithiG" target="_blank">DinithiG</a>
-  </div>
-</div>
-
-<div style="margin-top: 20px;">
-  <a href="/CV_ DinithiGunawardena.pdf" class="btn" target="_blank"><i class="fas fa-file-alt"></i> Download My CV</a>
 </div>
 
 ---
