@@ -16,42 +16,42 @@ I'm a passionate Computer Science undergraduate with a strong foundation in soft
     <div class="section-icon"><i class="fas fa-user"></i></div>
     <h2>About Me</h2>
     <p>Learn more about my background, education, and professional journey.</p>
-    <a href="/about/" class="section-btn">View About</a>
+    <a href="/about" class="section-btn">View About</a>
   </div>
   
   <div class="home-section">
     <div class="section-icon"><i class="fas fa-code"></i></div>
     <h2>Skills</h2>
     <p>Explore my technical skills in programming, frameworks, and tools.</p>
-    <a href="/skills/" class="section-btn">View Skills</a>
+    <a href="/skills" class="section-btn">View Skills</a>
   </div>
   
   <div class="home-section">
     <div class="section-icon"><i class="fas fa-project-diagram"></i></div>
     <h2>Projects</h2>
     <p>Check out my portfolio of projects in AI, web development, and more.</p>
-    <a href="/projects/" class="section-btn">View Projects</a>
+    <a href="/projects" class="section-btn">View Projects</a>
   </div>
   
   <div class="home-section">
     <div class="section-icon"><i class="fas fa-file-pdf"></i></div>
     <h2>Resume</h2>
     <p>View my professional experience, education, and achievements.</p>
-    <a href="/resume/" class="section-btn">View Resume</a>
+    <a href="/resume" class="section-btn">View Resume</a>
   </div>
   
   <div class="home-section">
     <div class="section-icon"><i class="fas fa-blog"></i></div>
     <h2>Blog</h2>
     <p>Read my latest articles on technology, AI, and development.</p>
-    <a href="/blog/" class="section-btn">View Blog</a>
+    <a href="/blog" class="section-btn">View Blog</a>
   </div>
   
   <div class="home-section">
     <div class="section-icon"><i class="fas fa-envelope"></i></div>
     <h2>Contact</h2>
     <p>Get in touch with me for collaborations or opportunities.</p>
-    <a href="/contact/" class="section-btn">Contact Me</a>
+    <a href="/contact" class="section-btn">Contact Me</a>
   </div>
 </div>
 

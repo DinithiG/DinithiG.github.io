@@ -6,198 +6,226 @@ permalink: /projects/
 
 # Projects
 
-<div class="project-card" id="wavspoof">
-  <h2>🧠 WavSpoof – Audio Deepfake Detection</h2>
-  <img src="/images/wavspoof.png" alt="WavSpoof Project Screenshot" style="max-width: 600px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+<div class="projects-container">
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/wavspoof.png" alt="WavSpoof Project Screenshot"/>
+    </div>
+    <div class="project-content">
+      <h2>🧠 WavSpoof – Audio Deepfake Detection</h2>
+      <p>An advanced audio deepfake detection system designed to enhance speaker verification security using neural networks and signal processing.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">PyTorch</span>
+        <span class="tech-tag">LCNN</span>
+        <span class="tech-tag">HuBERT</span>
+      </div>
+      <div class="project-links">
+        <a href="/projects/wavspoof" class="btn primary">View Details</a>
+        <a href="https://github.com/DinithiG/WavSpoof" class="btn secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
   
-  <h3>Overview</h3>
-  <p>
-    WavSpoof is an advanced audio deepfake detection system designed to enhance speaker verification security. This project combines cutting-edge neural network architectures with specialized audio processing techniques to identify manipulated voice recordings with high accuracy. The research was presented at AICCoNS 2025.
-  </p>
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/intellipm.png" alt="IntelliPM Project Screenshot"/>
+    </div>
+    <div class="project-content">
+      <h2>🤖 IntelliPM – Multi-Agent Project Management Tool</h2>
+      <p>An innovative multi-agent system designed to optimize project workflows and enhance team collaboration through AI-driven coordination.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">LangChain</span>
+        <span class="tech-tag">LangGraph</span>
+        <span class="tech-tag">LLMs</span>
+      </div>
+      <div class="project-links">
+        <a href="/projects/intellipm" class="btn primary">View Details</a>
+        <a href="https://github.com/DinithiG/IntelliPM" class="btn secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
   
-  <h3>Technologies Used</h3>
-  <ul>
-    <li>Python</li>
-    <li>Light CNN (LCNN) architecture</li>
-    <li>HuBERT for audio representation</li>
-    <li>Mel-frequency Cepstral Coefficients (MFCC)</li>
-    <li>Constant-Q Transform (CQT)</li>
-    <li>PyTorch</li>
-  </ul>
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/stock-analysis.png" alt="Stock Analysis Project Screenshot"/>
+    </div>
+    <div class="project-content">
+      <h2>📈 Stock Analysis using Multi-Agent AI</h2>
+      <p>A sophisticated multi-agent system for stock market analysis and prediction that simulates expert collaboration through AI agents.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">TensorFlow</span>
+        <span class="tech-tag">Multi-Agent Systems</span>
+        <span class="tech-tag">Financial APIs</span>
+      </div>
+      <div class="project-links">
+        <a href="/projects/stock-analysis" class="btn primary">View Details</a>
+        <a href="https://github.com/DinithiG/StockAnalysisAI" class="btn secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
   
-  <h3>Key Features</h3>
-  <ul>
-    <li>High-accuracy detection of synthetic and manipulated audio</li>
-    <li>Robust against various deepfake generation techniques</li>
-    <li>Low computational overhead for real-time applications</li>
-    <li>Comprehensive feature extraction pipeline</li>
-    <li>Explainable AI components for detection reasoning</li>
-  </ul>
-  
-  <h3>Implementation Details</h3>
-  <p>
-    The system employs a multi-stage approach to deepfake detection:
-  </p>
-  <ol>
-    <li><strong>Audio Preprocessing:</strong> Normalization and segmentation</li>
-    <li><strong>Feature Extraction:</strong> Using MFCC and CQT to capture spectral characteristics</li>
-    <li><strong>Representation Learning:</strong> HuBERT for contextual audio understanding</li>
-    <li><strong>Classification:</strong> LCNN architecture for efficient pattern recognition</li>
-    <li><strong>Post-processing:</strong> Decision fusion and confidence scoring</li>
-  </ol>
-  
-  <h3>Research Impact</h3>
-  <p>
-    This project addresses the growing threat of audio deepfakes in security-critical applications like banking verification systems and voice authentication. The research contributes novel techniques for detecting increasingly sophisticated voice manipulation methods.
-  </p>
-  
-  <div style="margin-top: 20px;">
-    <a href="https://github.com/DinithiG/WavSpoof" class="btn" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+  <div class="project-card">
+    <div class="project-image">
+      <img src="/images/hr-chatbot.png" alt="HR Chatbot Screenshot"/>
+    </div>
+    <div class="project-content">
+      <h2>💬 Copilot HR Chatbot</h2>
+      <p>An intelligent HR assistant built with Microsoft Copilot Studio that streamlines employee inquiries and HR processes.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Microsoft Copilot</span>
+        <span class="tech-tag">Azure</span>
+        <span class="tech-tag">Power Platform</span>
+        <span class="tech-tag">SharePoint</span>
+      </div>
+      <div class="project-links">
+        <a href="/projects/hr-chatbot" class="btn primary">View Details</a>
+        <a href="https://github.com/DinithiG/HRChatbot" class="btn secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="project-card" id="intellipm">
-  <h2>🤖 IntelliPM – Multi-Agent Project Management Tool</h2>
-  <img src="/images/intellipm.png" alt="IntelliPM Project Screenshot" style="max-width: 600px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-  
-  <h3>Overview</h3>
-  <p>
-    IntelliPM is an innovative multi-agent system designed to optimize project workflows and enhance team collaboration. By leveraging multiple specialized AI agents that communicate and coordinate with each other, the system can handle complex project management tasks with minimal human intervention.
-  </p>
-  
-  <h3>Technologies Used</h3>
-  <ul>
-    <li>Python</li>
-    <li>LangChain for agent orchestration</li>
-    <li>LangGraph for agent communication flows</li>
-    <li>Large Language Models</li>
-    <li>Vector databases for knowledge storage</li>
-  </ul>
-  
-  <h3>Key Features</h3>
-  <ul>
-    <li>Autonomous task allocation and scheduling</li>
-    <li>Resource optimization across project components</li>
-    <li>Risk identification and mitigation strategies</li>
-    <li>Adaptive planning based on progress feedback</li>
-    <li>Natural language interface for team members</li>
-  </ul>
-  
-  <h3>Agent Architecture</h3>
-  <p>
-    The system implements a hierarchical multi-agent architecture:
-  </p>
-  <ul>
-    <li><strong>Manager Agent:</strong> Oversees the entire project and coordinates other agents</li>
-    <li><strong>Planning Agent:</strong> Creates and adjusts project timelines</li>
-    <li><strong>Resource Agent:</strong> Optimizes allocation of team members and resources</li>
-    <li><strong>Risk Agent:</strong> Identifies potential issues and suggests mitigations</li>
-    <li><strong>Communication Agent:</strong> Handles interactions with human team members</li>
-  </ul>
-  
-  <h3>Implementation Challenges</h3>
-  <p>
-    A significant challenge was designing effective communication protocols between agents with different specializations. This was addressed by implementing a structured message passing system with context preservation and priority handling to ensure coherent decision-making across the system.
-  </p>
-  
-  <div style="margin-top: 20px;">
-    <a href="https://github.com/DinithiG/IntelliPM" class="btn" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-  </div>
-</div>
-
-<div class="project-card" id="stock-analysis">
-  <h2>📈 Stock Analysis using Multi-Agent AI</h2>
-  <img src="/images/stock-analysis.png" alt="Stock Analysis Project Screenshot" style="max-width: 600px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-  
-  <h3>Overview</h3>
-  <p>
-    This project implements a sophisticated multi-agent system for stock market analysis and prediction. By simulating AI-driven decision-making with supervisor agents, the system creates a hierarchical approach to financial insights that mimics expert collaboration.
-  </p>
-  
-  <h3>Technologies Used</h3>
-  <ul>
-    <li>Python</li>
-    <li>TensorFlow for predictive modeling</li>
-    <li>Multi-Agent Systems architecture</li>
-    <li>Financial APIs for real-time data</li>
-    <li>Data visualization libraries</li>
-  </ul>
-  
-  <h3>Key Features</h3>
-  <ul>
-    <li>Multi-perspective market analysis</li>
-    <li>Automated technical and fundamental analysis</li>
-    <li>Consensus-based prediction methodology</li>
-    <li>Risk assessment and portfolio recommendations</li>
-    <li>Backtesting against historical market data</li>
-  </ul>
-  
-  <h3>Agent Roles</h3>
-  <p>
-    The system employs specialized agents with distinct roles:
-  </p>
-  <ul>
-    <li><strong>Technical Analysis Agent:</strong> Focuses on price patterns and indicators</li>
-    <li><strong>Fundamental Analysis Agent:</strong> Evaluates company financials and economic factors</li>
-    <li><strong>Sentiment Analysis Agent:</strong> Monitors news and social media sentiment</li>
-    <li><strong>Risk Assessment Agent:</strong> Evaluates potential downside scenarios</li>
-    <li><strong>Supervisor Agent:</strong> Integrates insights and makes final recommendations</li>
-  </ul>
-  
-  <div style="margin-top: 20px;">
-    <a href="https://github.com/DinithiG/StockAnalysisAI" class="btn" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-  </div>
-</div>
-
-<div class="project-card" id="hr-chatbot">
-  <h2>💬 Copilot HR Chatbot</h2>
-  <img src="/images/hr-chatbot.png" alt="HR Chatbot Screenshot" style="max-width: 600px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
-  
-  <h3>Overview</h3>
-  <p>
-    Developed during my internship at Dialog Axiata, this HR chatbot leverages Microsoft Copilot Studio to streamline employee support by automating responses to common HR queries and integrating with existing company systems.
-  </p>
-  
-  <h3>Technologies Used</h3>
-  <ul>
-    <li>Microsoft Copilot Studio</li>
-    <li>Azure services</li>
-    <li>Power Platform</li>
-    <li>SharePoint integration</li>
-    <li>Natural Language Processing</li>
-  </ul>
-  
-  <h3>Key Features</h3>
-  <ul>
-    <li>Automated responses to common HR inquiries</li>
-    <li>Employee leave management assistance</li>
-    <li>Benefits and policy information retrieval</li>
-    <li>Integration with HR databases</li>
-    <li>Escalation to human HR staff when needed</li>
-  </ul>
-  
-  <h3>Implementation Process</h3>
-  <p>
-    The chatbot was developed through a structured approach:
-  </p>
-  <ol>
-    <li><strong>Requirements Analysis:</strong> Identifying common HR queries and processes</li>
-    <li><strong>Knowledge Base Creation:</strong> Compiling HR policies and procedures</li>
-    <li><strong>Conversation Flow Design:</strong> Creating natural dialog patterns</li>
-    <li><strong>Integration:</strong> Connecting with HR systems and databases</li>
-    <li><strong>Testing and Refinement:</strong> Iterative improvement based on user feedback</li>
-  </ol>
-  
-  <h3>Business Impact</h3>
-  <p>
-    The implementation resulted in a 40% reduction in routine HR inquiries requiring human intervention, allowing the HR team to focus on more complex employee issues and strategic initiatives. Employee satisfaction with HR support increased significantly due to faster response times.
-  </p>
-  
-  <div style="margin-top: 20px;">
-    <a href="https://github.com/DinithiG/HRChatbot" class="btn" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-  </div>
-</div>
-
-<div style="margin-top: 30px; text-align: center;">
+<div class="home-link">
   <a href="/" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
 </div>
+
+<style>
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .project-image {
+    flex: 0 0 40%;
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .project-card:hover .project-image img {
+    transform: scale(1.05);
+  }
+  
+  .project-content {
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-content h2 {
+    margin-top: 0;
+    color: #267CB9;
+    font-size: 1.5rem;
+  }
+  
+  .project-content p {
+    color: #555;
+    margin-bottom: 15px;
+    flex-grow: 1;
+  }
+  
+  .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .tech-tag {
+    background-color: #e9f2fa;
+    color: #267CB9;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #267CB9;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #1c5a85;
+  }
+  
+  .btn.secondary {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #ddd;
+  }
+  
+  .home-link {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .home-link .btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .home-link .btn:hover {
+    background-color: #5a6268;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+    }
+    
+    .project-image {
+      flex: 0 0 200px;
+    }
+    
+    .project-links {
+      flex-direction: column;
+    }
+    
+    .btn {
+      text-align: center;
+    }
+  }
+</style>
