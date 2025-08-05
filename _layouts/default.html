@@ -38,19 +38,32 @@
       h3 { font-size: 1.3em; }
       a { color: #0366d6; text-decoration: none; transition: color 0.2s ease; }
       a:hover { color: #0056b3; text-decoration: underline; }
-      .wrapper { max-width: 1100px; margin: 0 auto; }
+      .wrapper { 
+        max-width: 1200px; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       section { 
-        max-width: 700px; 
+        width: 100%;
+        max-width: 800px; 
         background-color: white;
         padding: 30px;
         border-radius: 8px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-left: auto;
+        margin-right: auto;
       }
       header { 
+        width: 100%;
+        max-width: 800px;
         background-color: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        text-align: center;
       }
       img { 
         max-width: 100%; 
@@ -98,16 +111,27 @@
         text-decoration: none; 
         transform: translateY(-2px);
       }
+      .navigation { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+      }
       .navigation p { 
-        margin: 10px 0; 
+        margin: 0; 
       }
       .navigation a { 
         display: block;
-        padding: 5px 0;
-        transition: transform 0.2s ease;
+        padding: 8px 15px;
+        background-color: #f6f8fa;
+        border-radius: 5px;
+        transition: all 0.2s ease;
       }
       .navigation a:hover { 
-        transform: translateX(5px);
+        transform: translateY(-3px);
+        background-color: #e6e8ea;
+        text-decoration: none;
       }
       .contact-info { 
          margin-top: 20px; 
@@ -496,10 +520,6 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Dinithi Gunawardena" style="border-radius: 50%; border: 3px solid #0366d6;" />
-        {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
@@ -511,7 +531,7 @@
             <p><a href="/projects/"><i class="fas fa-project-diagram"></i> Projects</a></p>
             <p><a href="/blog/"><i class="fas fa-blog"></i> Blog</a></p>
             <p><a href="/#contact"><i class="fas fa-envelope"></i> Contact</a></p>
-          </div>
+        </div>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
