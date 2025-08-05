@@ -1,10 +1,28 @@
-title: Dinithi Gunawardena # your name (or website title) here
+title: Dinithi Gunawardena | Software Engineer
 logo: "images/tuxpi.com.1679851067.jpg?raw=true"
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Mobile : +94713249027
+  Software Engineer & Data Science Enthusiast
   <br><br>
-  Email : dinithi.20210465@iit.ac.lk
+  BSc in Computer Science
+  <br>
+  Informatics Institute of Technology
   <br><br>
-  <a href="https://lk.linkedin.com/in/dinithi-gunawardena-7719a9164">View My LinkedIn Profile</a>  
+  <a href="mailto:dinithi.20210465@iit.ac.lk">dinithi.20210465@iit.ac.lk</a>
+  <br>
+  <a href="tel:+94713249027">+94 71 324 9027</a>
+  <br><br>
+  <a href="https://lk.linkedin.com/in/dinithi-gunawardena-7719a9164" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+  <br>
+  <a href="https://github.com/DinithiG" target="_blank"><i class="fab fa-github"></i> GitHub Profile</a>
+
+# Social media links (uncomment as needed)
+social_links:
+  linkedin: dinithi-gunawardena-7719a9164
+  github: DinithiG
+  # twitter: your-username
+  # facebook: your-username
+
+# Google Analytics (if you have a tracking ID)
+# google_analytics: UA-XXXXXXXXX-X
 
 theme: jekyll-theme-minimal
