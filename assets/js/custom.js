@@ -58,6 +58,9 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', animateOnScroll);
   window.addEventListener('resize', animateOnScroll);
   
+  // Highlight active page in navigation
+  highlightActivePage();
+  
   // Add styles for dark mode toggle
   const style = document.createElement('style');
   style.textContent = `
@@ -101,4 +104,24 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   
   document.head.appendChild(style);
+  
+  // Function to highlight the active page in navigation
+  function highlightActivePage() {
+    const currentPath = window.location.pathname;
+    const navItems = document.querySelectorAll('.nav-item');
+    
+    navItems.forEach(item => {
+      const href = item.getAttribute('href');
+      
+      // Remove active class from all items first
+      item.classList.remove('active');
+      
+      // Check if this is the current page
+      if (href === '/' && (currentPath === '/' || currentPath === '/index.html')) {
+        item.classList.add('active');
+      } else if (href !== '/' && currentPath.includes(href)) {
+        item.classList.add('active');
+      }
+    });
+  }
 });

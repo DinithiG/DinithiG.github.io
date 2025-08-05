@@ -65,6 +65,47 @@
         margin-bottom: 20px;
         text-align: center;
       }
+      
+      .main-navigation {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        background-color: #f8f8f8;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      
+      .nav-item {
+        display: block;
+        padding: 10px 15px;
+        margin: 5px 0;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+      
+      .nav-item:hover {
+        background-color: #e9e9e9;
+        transform: translateX(5px);
+      }
+      
+      .nav-item.active {
+        background-color: #267CB9;
+        color: white;
+      }
+      
+      .download-btn {
+        background-color: #267CB9;
+        color: white;
+        margin-top: 10px;
+      }
+      
+      .download-btn:hover {
+        background-color: #1c5d8b;
+      }
       img { 
         max-width: 100%; 
         border-radius: 5px; 
@@ -514,6 +555,35 @@
            padding: 20px;
          }
        }
+       
+       @media (max-width: 768px) {
+         header {
+           position: relative;
+           float: none;
+           width: 100%;
+           padding: 15px;
+         }
+         
+         section {
+           float: none;
+           width: 100%;
+           margin: 0;
+         }
+         
+         .main-navigation {
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: center;
+         }
+         
+         .nav-item {
+           margin: 5px;
+         }
+         
+         .download-btn {
+           margin-top: 5px;
+         }
+       }
     </style>
   </head>
   <body>
@@ -523,15 +593,15 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <div class="navigation">
-            <p><a href="/"><i class="fas fa-home"></i> Home</a></p>
-            <p><a href="/resume/"><i class="fas fa-file-pdf"></i> Resume</a></p>
-            <p><a href="/CV_ DinithiGunawardena.pdf" target="_blank"><i class="fas fa-download"></i> Download CV</a></p>
-            <p><a href="/skills/"><i class="fas fa-code"></i> Skills</a></p>
-            <p><a href="/projects/"><i class="fas fa-project-diagram"></i> Projects</a></p>
-            <p><a href="/blog/"><i class="fas fa-blog"></i> Blog</a></p>
-            <p><a href="/#contact"><i class="fas fa-envelope"></i> Contact</a></p>
-        </div>
+        <nav class="main-navigation">
+            <a href="/" class="nav-item"><i class="fas fa-home"></i> Home</a>
+            <a href="/resume/" class="nav-item"><i class="fas fa-file-pdf"></i> Resume</a>
+            <a href="/skills/" class="nav-item"><i class="fas fa-code"></i> Skills</a>
+            <a href="/projects/" class="nav-item"><i class="fas fa-project-diagram"></i> Projects</a>
+            <a href="/blog/" class="nav-item"><i class="fas fa-blog"></i> Blog</a>
+            <a href="/#contact" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+            <a href="/CV_ DinithiGunawardena.pdf" target="_blank" class="nav-item download-btn"><i class="fas fa-download"></i> Download CV</a>
+        </nav>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
