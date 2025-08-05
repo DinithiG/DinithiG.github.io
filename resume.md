@@ -27,30 +27,42 @@ title: Resume | Dinithi Gunawardena
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Software Engineering Intern</h3>
-        <p class="resume-date">June 2022 - December 2022</p>
+        <h3>Analyst (Part-Time)</h3>
+        <p class="resume-date">July 2024 - Present</p>
       </div>
-      <p class="resume-company">ABC Technologies, Colombo, Sri Lanka</p>
+      <p class="resume-company">Wonderful Machine</p>
       <ul>
-        <li>Developed and maintained Java-based backend services using Spring Boot framework</li>
-        <li>Collaborated with senior developers to implement RESTful APIs for a customer management system</li>
-        <li>Participated in code reviews and implemented feedback to improve code quality</li>
-        <li>Assisted in database design and optimization using MySQL</li>
-        <li>Contributed to the development of automated test suites using JUnit and Mockito</li>
+        <li>Supporting creative and business research using structured data and analytics</li>
+        <li>Collaborating on operational optimization projects and content systems</li>
+        <li>Applying data-driven approaches to improve business processes</li>
       </ul>
     </div>
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Research Assistant</h3>
-        <p class="resume-date">January 2022 - May 2022</p>
+        <h3>Data & AI Intern</h3>
+        <p class="resume-date">February 2024 - June 2024</p>
       </div>
-      <p class="resume-company">University of Colombo School of Computing, Sri Lanka</p>
+      <p class="resume-company">H One Pvt Ltd</p>
       <ul>
-        <li>Assisted in data collection and preprocessing for a machine learning research project</li>
-        <li>Implemented data visualization techniques using Python (Matplotlib, Seaborn)</li>
-        <li>Developed scripts to automate data analysis tasks</li>
-        <li>Collaborated with faculty members to document research findings</li>
+        <li>Built AI applications with Microsoft Azure and Copilot Studio</li>
+        <li>Developed chatbots for enterprise applications</li>
+        <li>Optimized cloud pipelines for improved performance</li>
+        <li>Enhanced deployment workflows for AI solutions</li>
+      </ul>
+    </div>
+    
+    <div class="resume-item">
+      <div class="resume-item-header">
+        <h3>Data Analyst Intern</h3>
+        <p class="resume-date">July 2023 - June 2024</p>
+      </div>
+      <p class="resume-company">Dialog Axiata PLC</p>
+      <ul>
+        <li>Conducted product analysis and developed interactive dashboards</li>
+        <li>Delivered data insights to support business decision-making</li>
+        <li>Built HR chatbot using Microsoft Copilot Studio</li>
+        <li>Supported a major banking analytics project</li>
       </ul>
     </div>
   </div>
@@ -60,12 +72,19 @@ title: Resume | Dinithi Gunawardena
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>BSc in Computer Science</h3>
-        <p class="resume-date">2019 - 2023</p>
+        <h3>BSc (Hons) Computer Science (First Class Honours)</h3>
+        <p class="resume-date">2021 - 2025</p>
       </div>
-      <p class="resume-company">University of Colombo School of Computing, Sri Lanka</p>
-      <p><strong>GPA:</strong> 3.8/4.0</p>
-      <p><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Web Development, Machine Learning, Software Engineering</p>
+      <p class="resume-company">University of Westminster - IIT Sri Lanka</p>
+      <p><strong>Relevant Modules:</strong> Machine Learning, AI, Data Science, Multi-Agent Systems</p>
+    </div>
+
+    <div class="resume-item">
+      <div class="resume-item-header">
+        <h3>Visakha Vidyalaya Colombo</h3>
+      </div>
+      <p><strong>A/Ls:</strong> Math (C), Physics (C), Chemistry (S)</p>
+      <p><strong>O/Ls:</strong> 9As + Best Math Results Award</p>
     </div>
   </div>
 
@@ -74,44 +93,54 @@ title: Resume | Dinithi Gunawardena
     
     <div class="resume-skills">
       <div class="resume-skill-category">
-        <h3>Programming Languages</h3>
+        <h3>Languages</h3>
         <ul>
-          <li>Java</li>
           <li>Python</li>
+          <li>Java</li>
+          <li>C#</li>
+          <li>R</li>
+          <li>SQL</li>
           <li>JavaScript</li>
           <li>HTML/CSS</li>
-          <li>SQL</li>
+          <li>Basic C++</li>
+          <li>.NET</li>
         </ul>
       </div>
       
       <div class="resume-skill-category">
         <h3>Frameworks & Libraries</h3>
         <ul>
-          <li>Spring Boot</li>
+          <li>PyTorch</li>
+          <li>TensorFlow</li>
+          <li>LangChain</li>
+          <li>LangGraph</li>
+          <li>ASP.NET</li>
           <li>React</li>
-          <li>Pandas/NumPy</li>
-          <li>Matplotlib/Seaborn</li>
-          <li>Bootstrap</li>
         </ul>
       </div>
       
       <div class="resume-skill-category">
-        <h3>Tools & Technologies</h3>
+        <h3>Tools & Platforms</h3>
         <ul>
-          <li>Git/GitHub</li>
-          <li>Docker</li>
-          <li>IntelliJ IDEA</li>
-          <li>VS Code</li>
-          <li>Jupyter Notebook</li>
+          <li>Microsoft Azure</li>
+          <li>Git</li>
+          <li>Copilot Studio</li>
+          <li>Power BI</li>
+          <li>Colab</li>
+          <li>Airtable</li>
         </ul>
       </div>
       
       <div class="resume-skill-category">
-        <h3>Databases</h3>
+        <h3>Areas of Expertise</h3>
         <ul>
-          <li>MySQL</li>
-          <li>PostgreSQL</li>
-          <li>MongoDB</li>
+          <li>Machine Learning</li>
+          <li>Deep Learning</li>
+          <li>Audio Deepfake Detection</li>
+          <li>Data Analysis & Visualization</li>
+          <li>Multi-Agent Systems</li>
+          <li>Generative AI</li>
+          <li>Object-Oriented Programming</li>
         </ul>
       </div>
     </div>
@@ -122,18 +151,48 @@ title: Resume | Dinithi Gunawardena
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Cabin Management System</h3>
+        <h3>🧠 WavSpoof – Audio Deepfake Detection</h3>
       </div>
-      <p>A Java-based application for managing cabin bookings and passenger information for a cruise ship.</p>
-      <p><strong>Technologies:</strong> Java, JavaFX, MySQL</p>
+      <p>Built for speaker verification systems using advanced neural network architectures. Presented research at AICCoNS 2025.</p>
+      <p><strong>Technologies:</strong> Python, LCNN, HuBERT, MFCC, CQT</p>
     </div>
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Data Analysis of COVID-19 Trends</h3>
+        <h3>🤖 IntelliPM – Multi-Agent PM Tool</h3>
       </div>
-      <p>Python project analyzing COVID-19 data to identify patterns and visualize trends across different regions.</p>
-      <p><strong>Technologies:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p>A multi-agent system designed to optimize project workflows and enhance team collaboration.</p>
+      <p><strong>Technologies:</strong> Python, LangChain, LangGraph, Multi-Agent Systems</p>
+    </div>
+
+    <div class="resume-item">
+      <div class="resume-item-header">
+        <h3>📈 Stock Analysis using Multi-Agent AI</h3>
+      </div>
+      <p>Simulated AI-driven decision-making with supervisor agents for stock market analysis.</p>
+      <p><strong>Technologies:</strong> Python, TensorFlow, Multi-Agent Systems</p>
+    </div>
+
+    <div class="resume-item">
+      <div class="resume-item-header">
+        <h3>💬 Copilot HR Chatbot</h3>
+      </div>
+      <p>Built with Microsoft Copilot for Dialog Axiata's HR queries to streamline employee support.</p>
+      <p><strong>Technologies:</strong> Microsoft Copilot Studio, Azure, Power Platform</p>
+    </div>
+  </div>
+
+  <div class="resume-section">
+    <h2><i class="fas fa-trophy"></i> Achievements</h2>
+    
+    <div class="resume-item">
+      <ul>
+        <li>🥉 3rd Place – Gen AI Hackathon (Hatch Works + Veracity Group)</li>
+        <li>🏅 Top 10 – Intellihack 3.0 (UCSC)</li>
+        <li>🗣️ Oral Presenter – AICCoNS 2025</li>
+        <li>📜 CIMA (Completed Business Level)</li>
+        <li>💼 IEEE WIE Treasurer (2022–2023)</li>
+      </ul>
     </div>
   </div>
 
@@ -142,17 +201,16 @@ title: Resume | Dinithi Gunawardena
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Oracle Certified Associate, Java SE 8 Programmer</h3>
+        <h3>CIMA Business Level</h3>
         <p class="resume-date">2021</p>
       </div>
     </div>
     
     <div class="resume-item">
       <div class="resume-item-header">
-        <h3>Python for Data Science and Machine Learning Bootcamp</h3>
-        <p class="resume-date">2022</p>
+        <h3>Microsoft Azure Fundamentals</h3>
+        <p class="resume-date">2023</p>
       </div>
-      <p class="resume-company">Udemy</p>
     </div>
   </div>
 

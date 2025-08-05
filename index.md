@@ -116,35 +116,63 @@ I'm a passionate Computer Science undergraduate with a strong foundation in soft
 ### Projects
 
 <div class="project-card">
-  <h4><a href="/projects/#java-project">Java Project: Cabin Management System</a></h4>
-  <img src="images/java.png?raw=true" alt="Java Project Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <h4><a href="/projects/#wavspoof">🧠 WavSpoof – Audio Deepfake Detection</a></h4>
+  <img src="images/wavspoof.png?raw=true" alt="WavSpoof Project Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
   
-  <p><strong>Technologies Used</strong>: Java, OOP Principles, File I/O</p>
+  <p><strong>Technologies Used</strong>: Python, LCNN, HuBERT, MFCC, CQT</p>
   
-  <p><strong>Description</strong>: Developed a comprehensive cabin management system that allows users to efficiently manage cabin bookings, customer information, and availability status. Implemented object-oriented design patterns to ensure code maintainability and scalability.</p>
+  <p><strong>Description</strong>: Built for speaker verification systems to detect audio deepfakes. Research presented at AICCoNS 2025 with novel approaches to audio authentication.</p>
   
   <div style="display: flex; gap: 10px; margin-top: 15px;">
-    <a href="/projects/#java-project" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
-    <a href="/pdf/java_cabin.zip" class="btn"><i class="fas fa-download"></i> Download Project</a>
+    <a href="/projects/#wavspoof" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
+    <a href="https://github.com/DinithiG/WavSpoof" class="btn"><i class="fab fa-github"></i> GitHub</a>
   </div>
 </div>
 
 <div class="project-card">
-  <h4><a href="/projects/#python-project">Python Data Analysis Project</a></h4>
-  <img src="images/pypy.webp?raw=true" alt="Python Project Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  <h4><a href="/projects/#intellipm">🤖 IntelliPM – Multi-Agent PM Tool</a></h4>
+  <img src="images/intellipm.png?raw=true" alt="IntelliPM Project Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
   
-  <p><strong>Technologies Used</strong>: Python, Data Analysis Libraries, Visualization Tools</p>
+  <p><strong>Technologies Used</strong>: Python, LangChain, LangGraph, Multi-Agent Systems</p>
   
-  <p><strong>Description</strong>: Created a data analysis solution that processes and visualizes complex datasets, providing actionable insights. Utilized Python's powerful libraries to implement efficient data processing algorithms and generate meaningful visualizations.</p>
+  <p><strong>Description</strong>: A multi-agent system designed to optimize project workflows and enhance team collaboration through AI-driven task management and resource allocation.</p>
   
   <div style="display: flex; gap: 10px; margin-top: 15px;">
-    <a href="/projects/#python-project" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
-    <a href="/pdf/w1867585.zip" class="btn"><i class="fas fa-download"></i> Download Project</a>
+    <a href="/projects/#intellipm" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
+    <a href="https://github.com/DinithiG/IntelliPM" class="btn"><i class="fab fa-github"></i> GitHub</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h4><a href="/projects/#stock-analysis">📈 Stock Analysis using Multi-Agent AI</a></h4>
+  <img src="images/stock-analysis.png?raw=true" alt="Stock Analysis Project Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  
+  <p><strong>Technologies Used</strong>: Python, TensorFlow, Multi-Agent Systems</p>
+  
+  <p><strong>Description</strong>: Simulated AI-driven decision-making with supervisor agents for stock market analysis and prediction, creating a hierarchical system for financial insights.</p>
+  
+  <div style="display: flex; gap: 10px; margin-top: 15px;">
+    <a href="/projects/#stock-analysis" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
+    <a href="https://github.com/DinithiG/StockAnalysisAI" class="btn"><i class="fab fa-github"></i> GitHub</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h4><a href="/projects/#hr-chatbot">💬 Copilot HR Chatbot</a></h4>
+  <img src="images/hr-chatbot.png?raw=true" alt="HR Chatbot Screenshot" style="max-width: 400px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+  
+  <p><strong>Technologies Used</strong>: Microsoft Copilot Studio, Azure, Power Platform</p>
+  
+  <p><strong>Description</strong>: Built with Microsoft Copilot for Dialog Axiata's HR queries to streamline employee support and automate common HR processes.</p>
+  
+  <div style="display: flex; gap: 10px; margin-top: 15px;">
+    <a href="/projects/#hr-chatbot" class="btn"><i class="fas fa-info-circle"></i> Project Details</a>
+    <a href="https://github.com/DinithiG/HRChatbot" class="btn"><i class="fab fa-github"></i> GitHub</a>
   </div>
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="/projects/" class="btn"><i class="fas fa-project-diagram"></i> View All Projects</a>
+  <a href="/projects/" class="btn"><i class="fas fa-code"></i> View All Projects</a>
 </div>
 
 ---
